@@ -1,0 +1,7 @@
+package zad1;
+
+public class DbAccessException extends RuntimeException {
+	  public DbAccessException(String msg, Throwable cause) {
+	     super(msg, cause);
+	   }
+	} 
